@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Justify Content</title>
+  <style>
+    .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .login{
+      background-color: rgba(245, 235, 235, 0.6);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      width: 400px;
+      padding: 20px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .container > .login > input{
+      margin: 10px;
+      padding: 3px;
+      border:2px solid white;
+      border-radius: 2px;
+    
+    }
+    .container > .login > button{
+      margin:5px;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding-bottom: 3px;
+      padding-top: 3px;
+    
+    }
+    body {
+      background-image: url(https://img.freepik.com/premium-photo/search-bar-icon-search-3d-render-minimal-design-multicolor-background_41204-14142.jpg?semt=ais_hybrid);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="login">
+      <h1>Lorem, ipsum dolor.</h1>
+      <input type="text" class="username" placeholder="username">
+      <input type="password" class="password" placeholder="password">
+      <button type="submit">Login</button>
+    
+    </div>
+  </div>
+</body>
+</html>
